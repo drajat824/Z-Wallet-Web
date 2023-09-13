@@ -11,7 +11,7 @@ const ProfileAddPhone = () => {
   const onSubmit = () => {
     Axios({
       method: "patch",
-      url: "http://localhost:2000/profile/1",
+      url: "http://103.123.63.223:8000/profile/1",
       data: qs.stringify({
         phone: `+62${phone}`,
       }),

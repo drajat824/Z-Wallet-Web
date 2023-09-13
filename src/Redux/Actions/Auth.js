@@ -62,7 +62,7 @@ export const AuthLogin = (fields) => {
         email: fields.email,
         password: fields.password,
       }),
-      url: `http://localhost:8000/api/v1/login`,
+      url: `http://103.123.63.223:8000/api/v1/login`,
       headers: {
         "content-type": "application/x-www-form-urlencoded;charset=utf-8",
       },
@@ -84,7 +84,7 @@ export const AuthRegister = (fields) => {
   return (dispatch) => {
     return Axios({
       method: "POST",
-      url: `http://localhost:8000/api/v1/register`,
+      url: `http://103.123.63.223:8000/api/v1/register`,
       data: qs.stringify({
         name: fields.name,
         email: fields.email,

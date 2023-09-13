@@ -9,7 +9,7 @@
 
 // //         // Axios({
 // //         //   method: "post",
-// //         //   url: `http://localhost:8000/api/v1/login`,
+// //         //   url: `http://103.123.63.223:8000/api/v1/login`,
 // //         //   data: qs.stringify({
 // //         //     email: em,
 // //         //     password: pw,
@@ -37,10 +37,10 @@
 // //   }
 // // };
 
-// // let em = http://localhost:3000/login?email
+// // let em = http://103.123.63.223:3000/login?email
 // // console.log(qs.parse(window.location.href));
 // // console.log(pw);
 // // console.log(em);
 // // console.log(pw);
 
-// // 'http://localhost:8000'/login
+// // 'http://103.123.63.223:8000'/login

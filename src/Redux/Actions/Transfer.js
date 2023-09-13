@@ -41,7 +41,7 @@ export const GetTransfer = (fields) => {
     dispatch(TRANSFERREQUEST());
     return Axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1/transfer`,
+      url: `http://103.123.63.223:8000/api/v1/transfer`,
       headers: {
         auth: fields.token,
       },
@@ -70,7 +70,7 @@ export const PostTransfer = (fields) => {
         amount: fields.amount,
         notes: fields.notes,
       }),
-      url: `http://localhost:8000/api/v1/transfer`,
+      url: `http://103.123.63.223:8000/api/v1/transfer`,
       headers: {
         auth: fields.token,
       },

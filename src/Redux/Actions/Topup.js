@@ -39,7 +39,7 @@ export const GetTopup = (fields) => {
     dispatch(TopupRequest());
     return Axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1/topup`,
+      url: `http://103.123.63.223:8000/api/v1/topup`,
       headers: {
         auth: fields.token,
       },

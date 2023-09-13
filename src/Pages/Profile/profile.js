@@ -52,7 +52,7 @@ const Content = (props) => {
                     src={
                       myData ? (
                         myData.data[0].photo ? (
-                          'http://localhost:8000' +
+                          'http://103.123.63.223:8000' +
                           "/images/" +
                           myData.data[0].photo
                         ) : (

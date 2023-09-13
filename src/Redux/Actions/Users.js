@@ -62,7 +62,7 @@ export const GetProfile = (fields) => {
 
     return Axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1/profile/detail`,
+      url: `http://103.123.63.223:8000/api/v1/profile/detail`,
       headers: {
         auth: fields.token,
       },
@@ -84,7 +84,7 @@ export const GetProfileName = (fields) => {
 
     return Axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1//profile/search?name=${fields.name}`,
+      url: `http://103.123.63.223:8000/api/v1//profile/search?name=${fields.name}`,
       headers: {
         auth: fields.token,
       },
@@ -106,7 +106,7 @@ export const GetProfileId = (fields) => {
 
     return Axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1/profile/id/${fields.id}`,
+      url: `http://103.123.63.223:8000/api/v1/profile/id/${fields.id}`,
       headers: {
         auth: fields.token,
       },
@@ -128,7 +128,7 @@ export const GetProfileTransfer = (fields) => {
 
     return Axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1/profile/id/${fields.id}`,
+      url: `http://103.123.63.223:8000/api/v1/profile/id/${fields.id}`,
       headers: {
         auth: fields.token,
       },
@@ -150,7 +150,7 @@ export const PatchProfile = (fields) => {
 
     return Axios({
       method: "PATCH",
-      url: `http://localhost:8000/api/v1/profile`,
+      url: `http://103.123.63.223:8000/api/v1/profile`,
       data: qs.stringify({
         password: fields.password,
         pin: fields.pin,
@@ -174,7 +174,7 @@ export const setImage = (fields) => {
   return (dispatch) => {
     dispatch(PROFILEREQUEST());
 
-    Axios.patch("http://localhost:8000/api/v1/upload", fields.data, {
+    Axios.patch("http://103.123.63.223:8000/api/v1/upload", fields.data, {
       headers: {
         "content-type": "multipart/form-data",
         auth: fields.token,

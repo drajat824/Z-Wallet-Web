@@ -102,7 +102,7 @@ const Content = (props) => {
                     className="mr-sm-2"
                     src={
                       item.photo
-                        ? 'http://localhost:8000' +
+                        ? 'http://103.123.63.223:8000' +
                           "/images/" +
                           item.photo
                         : require("../../Assets/picture.png")

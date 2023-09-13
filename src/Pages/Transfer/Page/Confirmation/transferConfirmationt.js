@@ -82,7 +82,7 @@ const Content = (props) => {
                       ) : !dataTr.data.photo ? (
                         require("../../../../Assets/picture.png")
                       ) : (
-                        'http://localhost:8000' +
+                        'http://103.123.63.223:8000' +
                         "/images/" +
                         dataTr.data.photo
                       )
