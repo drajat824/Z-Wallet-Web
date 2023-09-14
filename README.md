@@ -6,6 +6,13 @@ Untuk menggunakan nya, clone dan run terlebih dahulu dengan Backend nya https://
 
 Link website : http://103.123.63.223:3000/login
 
+Akun Testing :
+
+Email : admin@tes.com
+Password : tes1234
+Balance : Rp9,999,999
+Pin : 111111
+
 Sceernshoot :
 
 1. Login
