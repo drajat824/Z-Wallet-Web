@@ -6,8 +6,7 @@ Untuk menggunakan nya, clone dan run terlebih dahulu dengan Backend nya https://
 
 Link website : http://103.123.63.223:3000/login
 
-# Akun Testing :
-
+Akun Testing :
 Email | Password | Balance | Pin 
 --- | --- | --- | --- 
 admin@tes.com | tes1234 | Rp9,999,999 | 111111 
